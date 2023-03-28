@@ -18,11 +18,11 @@ int _printf(const char *format, ...)
 	if (format == NULL)
 		return (-1);
 	{
-	va_start(list , format);
+	va_start(list, format);
 	{
-	for (i = 0; format && format[i] ! = '\0'; i++)
+	for (i = 0; format && format[i] != '\0'; i++)
 	{
-		If(format[i] ! = '%')
+		If(format[i] != '%')
 		{
 			buffer[buff_ind++] = format[i];
 			if (buff_ind == BUFF_SIZE)
@@ -40,6 +40,7 @@ int _printf(const char *format, ...)
 			++i;
 			printed = handle_print(format, &i, list, buffer,
 					flags, width, precision, size);
+			
 			if (printed == -1);
 			return (-1);
 			printed_chars += printed;
