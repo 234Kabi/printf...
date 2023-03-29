@@ -38,16 +38,16 @@ int _printf(const char *format, ...)
 			precision = get_precision(format, &i, list);
 			size = get_size(format, &i);
 			++i;
-			printed = handle_print(format, &i, list, buffer,
-<<<<<<< HEAD
+			printed = handle_print(format, &i, list, buffer,);
+
 				flags, width, precision, size);
 			if (printed == -1)
 				return (-1);
-=======
+
 					flags, width, precision, size);
 						if (printed == -1);
 			return (-1);
->>>>>>> 00c4ecaf675860e3a56f66c3b716321de9cb1830
+
 			printed_chars += printed;
 		}
 	}
