@@ -1,6 +1,10 @@
 #include "main.h"
+<<<<<<< HEAD
 
 /************************* PRINT CHAR *************************/
+=======
+#include <stdarg.h>
+>>>>>>> 00c4ecaf675860e3a56f66c3b716321de9cb1830
 
 /**
  * print_char - Prints a char
