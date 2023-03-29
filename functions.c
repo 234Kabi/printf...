@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdarg.h>
+
 /**
  * print_char - Prints a char
  * @types: List a of arguments
